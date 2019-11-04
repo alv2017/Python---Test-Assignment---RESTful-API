@@ -1,16 +1,25 @@
 
 # Gene RESTful API Structure
 
- Endpoint | HTTP Method | Parameters | Result |
-----------|-------------|------------|--------|
- gene/:name/ | **GET** | First n characters of gene name | Returns all gene entities that start with 'name' |
- gene/:name/ | **OPTIONS** | First n characters of gene name | Returns a description of the endpoint gene/:name |
- gene/:name/:species/ | **GET** | First n characters of gene name and exact species name | Returns all gene entities of a particular species that start with 'name' | 
- gene/:name/:species/ | **OPTIONS** | First n cha racters of gene name and exact species name | Returns a description of the endpoint gene/:name/:species |
+ Endpoint | HTTP Method | Result |
+----------|-------------|--------|
+ gene/:name/ | **GET** | Returns all gene entities that start with 'name' |
+ gene/:name/ | **OPTIONS** | Returns a description of the endpoint gene/:name |
+ gene/:name/:species/ | **GET** | Returns all gene entities of a particular species that start with 'name' | 
+ gene/:name/:species/ | **OPTIONS** | Returns a description of the endpoint gene/:name/:species |
+
+### Parameters
+* :name - represents first n characters of the gene name
+* :species - represents exact name of species
  
  
 # Project Requirements
 
+1. Python v3.6.8
+2. Django v2.2.6
+3. djangorestframework v3.10.3
+4. mysqlclient v1.4.4 (Python package)
+5. MySQL database 5.6.46
 
 
 # Automated Tests
