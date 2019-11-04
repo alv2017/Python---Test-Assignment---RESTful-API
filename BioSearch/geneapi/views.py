@@ -34,6 +34,8 @@ def get_gene_by_name(request, name):
                 raise EmptyResultSet
         except EmptyResultSet:
             return Response(status=status.HTTP_404_NOT_FOUND)
+    else:
+        return Response(status=status.HTTP_404_NOT_FOUND)
     
     if request.method == 'GET':
         objects_serializer = GeneAPISerializer(data_objects, many=True)
@@ -68,10 +70,13 @@ def get_gene_by_name_and_species(request, name, species):
                 raise EmptyResultSet
         except EmptyResultSet:
             return Response(status=status.HTTP_404_NOT_FOUND)
+    else:
+        return Response(status=status.HTTP_404_NOT_FOUND)
     
     if request.method == 'GET':
         objects_serializer = GeneAPISerializer(data_objects, many=True)
         return Response(objects_serializer.data)  
     
+
 
 
