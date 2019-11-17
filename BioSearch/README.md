@@ -35,7 +35,7 @@ https://alv2017.pythonanywhere.com/gene/
 The automated tests should be run in development environment only.
 The test can be run by issuing the command in the project command shell:
 ```
-python manage.py test --keepdb
+python manage.py test --keepdb geneapi
 ```
  
 # Project Assignment Follow Up
