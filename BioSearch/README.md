@@ -15,9 +15,16 @@
 # Deployed API Version
 https://alv2017.pythonanywhere.com/gene/
 
+**Note:** In browsable API (when Accept content type is text/html) the result set is limited to 5 instances, and it serves solely for demonstration purposes.
+
 ### Sample Calls
 * https://alv2017.pythonanywhere.com/gene/zswim/
 * https://alv2017.pythonanywhere.com/gene/zswim/neovison_vison/
+
+*Note:* In browsable API the result set is limited to 5 instances, and it serves solely for demonstration purposes.
+
+
+
 
  
 # Project Requirements
