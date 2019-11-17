@@ -11,7 +11,14 @@
 ### Parameters
 * :name - represents first n characters of the gene name
 * :species - represents exact name of species
- 
+
+# Deployed API Version
+https://alv2017.pythonanywhere.com/gene/
+
+### Sample Calls
+https://alv2017.pythonanywhere.com/gene/zswim/
+https://alv2017.pythonanywhere.com/gene/zswim/neovison_vison/
+
  
 # Project Requirements
 
