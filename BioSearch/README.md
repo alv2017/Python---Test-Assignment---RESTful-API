@@ -21,12 +21,6 @@ https://alv2017.pythonanywhere.com/gene/
 * https://alv2017.pythonanywhere.com/gene/zswim/
 * https://alv2017.pythonanywhere.com/gene/zswim/neovison_vison/
 
-*Note:* In browsable API the result set is limited to 5 instances, and it serves solely for demonstration purposes.
-
-
-
-
- 
 # Project Requirements
 
 1. Python v3.6.8
