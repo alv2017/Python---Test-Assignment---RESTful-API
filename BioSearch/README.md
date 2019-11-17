@@ -16,8 +16,8 @@
 https://alv2017.pythonanywhere.com/gene/
 
 ### Sample Calls
-https://alv2017.pythonanywhere.com/gene/zswim/
-https://alv2017.pythonanywhere.com/gene/zswim/neovison_vison/
+* https://alv2017.pythonanywhere.com/gene/zswim/
+* https://alv2017.pythonanywhere.com/gene/zswim/neovison_vison/
 
  
 # Project Requirements
